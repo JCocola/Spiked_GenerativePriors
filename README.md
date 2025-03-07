@@ -1,11 +1,17 @@
 # Nonasymptotic Guarantees for Low-Rank Matrix Recovery with Generative Priors  
 
-This repository contains the accompanying code for the NeurIPS paper:  
+This repository contains the accompanying code for the NeurIPS 2020 paper:  
 
-**_Nonasymptotic Guarantees for Low-Rank Matrix Recovery with Generative Priors_**  
+**_Nonasymptotic Guarantees for Spiked Matrix Recovery with Generative Priors_**  
+📄 *Advances in Neural Information Processing Systems 33 (NeurIPS 2020)*  
+👥 *Authors: Jorio Cocola, Paul Hand, Vlad Voroninski*  
 
-**⚠ Note:** This repository does *not* include the full paper—only the code used for experiments. The full paper can be accessed at the following link:  
+**⚠ Note:** This repository contains only the code used for experiments and *does not include the full paper*. The paper can be accessed here:  
 🔗 [NeurIPS Proceedings](https://proceedings.neurips.cc/paper/2020/hash/ad62cfd33e3870262d6bf5331c1f13b0-Abstract.html)  
+
+## Summary  
+
+This work studies rank-one matrix recovery under a generative prior, proving non-asymptotic guarantees with optimal sample complexity (up to logarithmic factors). We analyze the recovery problem under both Wishart and Wigner spiked matrix models, showing that generative network priors may eliminate the computational-to-statistical gap observed in sparse PCA. Our theoretical results establish a favorable optimization landscape for nonlinear least squares when the sample size scales with the input dimensionality of the generative model.  
 
 ## Requirements  
 
